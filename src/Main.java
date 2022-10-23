@@ -16,6 +16,17 @@ public class Main {
         car.setKolor("czarny");
         System.out.println(car.toString());
 
+        car.setId(3);
+        car.setMarka("Toyota");
+        car.setModel("Corolla");
+        car.setRok_produkcji(2001);
+        car.setPojemnosc_silnika(1.8);
+        car.setPrzebieg(200000);
+        car.setPaliwo("benzyna");
+        car.setKraj_pochodzenia("Japonia");
+        car.setKolor("czerwony");
+        System.out.println(car.toString());
+
 
     }
 }
